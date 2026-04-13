@@ -1,0 +1,15 @@
+{
+  "name": "tinydsa",
+  "version": "1.0.0",
+  "description": "Build Your Own Data Structures & Algorithms in TypeScript",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test:s01": "npx tsx tests/testS01.ts",
+    "test:s02": "npx tsx tests/testS02.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "tsx": "^4.16.0"
+  }
+}
